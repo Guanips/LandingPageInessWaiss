@@ -1,0 +1,119 @@
+@font-face {
+    font-family: StrangeDreams;
+    src: url(/assets/fonts/StrangeDreams/StrangeDreams.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(\assets\fonts\Raleway\Inter\Inter-VariableFont_opsz,wght.ttf);
+}
+
+@media only screen and (min-width: 1200px) {
+    .contenedorTarjeta {
+        font-size: 16px;
+    }
+
+    .btnComprar p {
+        font-size: 18px;
+    }
+}
+
+.contenedorTarjeta{
+    background-color: #292D32;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16em;
+    height: 20em;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+.contenedorTitulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20%;
+}
+
+.contenedorInfo {
+    display: grid;
+    height: 40%;
+}
+
+.contenedorComprar {
+    height: 40%;
+}
+
+.titulo{
+    font-family: StrangeDreams;
+    font-size: 22px;
+    margin: 0em;
+}
+
+.titulo p {
+    margin-top: 0px;
+}
+
+.curso.titulo {
+    color: #E0C976;
+}
+
+.btnMasInfo {
+    font-weight: 600;
+    font-family: Raleway;
+    justify-self: center;
+    align-self: end;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.curso.btnMasInfo {
+    color: #E0C976;
+}
+
+.lectura.titulo {
+    color: #E8C5C1;
+    font-size: 18px;
+}
+
+.lectura.btnMasInfo {
+    color: #E8C5C1;
+}
+
+p.cuerpo {
+    font-family: Raleway;
+    color: #FFFF;
+    margin-bottom: 0.5em;
+}
+
+
+
+.precio {
+    margin-bottom: 1em;
+}
+
+.btnComprar{
+    font-family: Raleway;
+    width: 16em;
+    height: 5em;
+    border-radius: 15px;
+    border: none;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+.curso.btnComprar{
+    background-color: #E0C976;
+}
+
+.lectura.btnComprar {
+    background-color: #E8C5C1;
+}
