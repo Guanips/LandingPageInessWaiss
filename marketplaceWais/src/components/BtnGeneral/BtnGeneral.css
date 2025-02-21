@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@media only screen and (min-width: 1200px) {
+    .btnGeneral {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .btnGeneral {
+        font-size: 16px;
+    }
+}
+
+.btnGeneral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: raleway;
+    color: #292D32;
+    border: none;
+    border-radius: 15px;
+    width: 8em;
+    height: 3em;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btnGeneral:hover {
+    cursor: pointer;
+}
+
+.cursos {
+    background-color: #E0C976;
+}
+
+.lecturas {
+    background-color: #E8C5C1;
+}
+
+.testimonios {
+    background-color: #FFFFFF;
+}

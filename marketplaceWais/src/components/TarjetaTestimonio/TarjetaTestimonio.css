@@ -1,0 +1,63 @@
+@font-face {
+    font-family: StrangeDreams;
+    src: url(/assets/fonts/StrangeDreams/StrangeDreams.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@media only screen and (min-width: 1200px) {
+    .contenedorTestimonio {
+        width: 20em;
+        height: 26em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .contenedorTestimonio {
+        width: 20em;
+        height: 26em;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contenedorTestimonio {
+        width: 20em;
+        height: 26em;
+    }
+}
+
+.contenedorTestimonio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292D32;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.imagenTestimonio {
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tituloTestimonio {
+    color: #E0C976;
+    font-family: StrangeDreams;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.cuerpoTestimonio {
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 85%;
+}

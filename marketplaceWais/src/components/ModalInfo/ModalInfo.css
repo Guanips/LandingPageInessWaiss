@@ -1,0 +1,132 @@
+@font-face {
+    font-family: StrangeDreams;
+    src: url(/assets/fonts/StrangeDreams/StrangeDreams.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .contenedorModal {
+        width: 65%;
+    }
+
+    .tituloModal {
+        font-size: 25px;
+    }
+
+    .cuerpoModal {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .contenedorModal {
+        width: 65%;
+    }
+
+    .tituloModal {
+        font-size: 25px;
+    }
+
+    .cuerpoModal {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contenedorModal {
+        height: 70%;
+    }
+
+    .tituloModal {
+        font-size: 24px;
+    }
+
+    .cuerpoModal {
+        font-size: 16px;
+    }
+}
+
+.modalTarjeta {
+    z-index: 1;
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modalTarjeta.visible {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: ease-in 1s;
+}
+
+.contenedorModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #424B54;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 0px 15px;
+    overflow: auto;
+}
+
+.tituloModal {
+    font-family: StrangeDreams;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.tituloModal.curso{
+    color: #E0C976;
+}
+
+.tituloModal.lectura {
+    color: #E8C5C1;
+}
+
+.cuerpoModal {
+    font-family: Raleway;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.btnCerrarModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    align-self: flex-end;
+    border-radius: 100%;
+}
+
+.btnCerrarModal.curso {
+    background-color: #E0C976;
+}
+
+.btnCerrarModal.lectura {
+    background-color: #E8C5C1;
+}
+
+li {
+    margin-bottom: 10px;
+}

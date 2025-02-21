@@ -1,0 +1,61 @@
+@font-face {
+    font-family: StrangeDreams;
+    src: url(/assets/fonts/StrangeDreams/StrangeDreams.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+.contenedorGeneral {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/img/fondoHeroSection.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 75, 84, 1);
+}
+
+.contenedorContenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.tituloExito {
+    font-family: StrangeDreams;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #E0C976;
+}
+
+.cuerpoExito {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    color: #FFFFFF;
+}
+
+.aclaracionExito {
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.contenedorContenidoServer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

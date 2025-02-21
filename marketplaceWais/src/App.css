@@ -1,0 +1,324 @@
+@font-face {
+    font-family: StrangeDreams;
+    src: url(/assets/fonts/StrangeDreams/StrangeDreams.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/Raleway/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .contenedorInternoHeader {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btnHeader {
+        margin-left: 20px;
+    }
+
+    .contenidoHero {
+        width: 80%;
+        align-items: left;
+    }
+
+    .botonesHero {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        align-self: center;
+    }
+
+    .seccionCursos{
+        scroll-margin-top: 90px;
+    }
+    
+    .seccionLecturas{
+        scroll-margin-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    
+    h2 {
+        font-size: 35px;
+    }
+
+    .btnHeader {
+        margin-left: 20px;
+    }
+
+    .btnHeader.headerWidth{
+        font-size: 18px;
+    }
+
+    .innerContenidoHero {
+        padding-left: 20px;
+    }
+
+    .contenedorInternoHeader {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contenidoHero {
+        width: 90%;
+        align-items: left;
+    }
+
+    .botonesHero {
+        gap: 20px;
+        justify-content: space-evenly;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .seccionCursos{
+        scroll-margin-top: 90px;
+    }
+    
+    .seccionLecturas{
+        scroll-margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        padding: 0px 10px; 
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .contenedorInternoHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedorBotonesHeader {
+        padding-bottom: 15px;
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+
+    .contenidoHero {
+        align-items: center;
+    }
+
+    .textoHero {
+        padding: 0px 10px;
+        margin-bottom: 15px;
+    }
+
+    .botonesHero {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .btnHero.especial{
+        font-size: 18px;
+        width: 9em;
+        height: 3.5em;
+    }
+
+    .seccionCursos{
+        scroll-margin-top: 145px;
+    }
+    
+    .seccionLecturas{
+        scroll-margin-top: 145px;
+    }
+
+}
+
+.btnHero.especial{
+    font-size: 18px;
+    width: 9em;
+    height: 3.5em;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.contenedorInternoHeader {
+    display: flex;
+    height: inherit;
+    width: 95%;
+    border-bottom: solid;
+    border-color: #E0C976;
+}
+
+.header img {
+    max-height: 100%;
+    height: auto;
+    margin: 10px 0px 10px 5px;
+    width: 14em;
+}
+
+.contenedorBotonesHeader {
+    display: flex;
+    align-items: center;
+}
+
+.btnHeader.headerWidth{
+    width: 7em;
+    height: 2.5em;
+}
+
+.heroSection {
+    background-image: url("/assets/img/fondoHeroSection.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 75, 84, 1);
+    height: 100vh;
+}
+
+.filtroFondoHero {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.contenidoHero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.innerContenidoHero {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.textoHero p {
+    font-family: Raleway;
+    color: #FFFF;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.botonesHero {
+    display: flex;
+    align-self: center;
+}
+
+.btnHero.especial{
+    font-weight: 500;
+}
+
+h2 {
+    font-family: StrangeDreams;
+    color: #E0C976;
+    font-weight:normal;
+    margin: 0px;
+}
+
+.seccionCursos{
+    background-color: #424B54;
+}
+
+.seccionLecturas{
+    background-color: #2E353C;
+}
+
+.textoSeccion {
+    text-align: center;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.textoSeccion p{
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textoSeccion h3 {
+    font-family: StrangeDreams;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.containerTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.contenedorPasarelas {
+    z-index: 1;
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contenedorPasarelas.visible {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: ease-in 1s;
+}
+
+.innerPasarelas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #424B54;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 0px 15px;
+    overflow: auto;
+}
+
+.contenedorWallet {
+    margin-top: 20px;
+}
